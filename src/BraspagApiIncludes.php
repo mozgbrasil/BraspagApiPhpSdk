@@ -8,7 +8,6 @@ include 'models/BraspagCaptureResponse.php';
 include 'models/BraspagVoidResponse.php';
 include 'models/BraspagAddress.php';
 include 'models/BraspagCard.php';
-include 'models/BraspagBoleto.php';
 include 'models/BraspagPayment.php';
 include 'models/BraspagCreditCardPayment.php';
 include 'models/BraspagDebitCardPayment.php';
