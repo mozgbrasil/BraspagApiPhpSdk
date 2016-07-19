@@ -1,7 +1,9 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-include($_SERVER['DOCUMENT_ROOT']."/src/BraspagApiIncludes.php");
+$path = dirname(dirname(__FILE__));
+$fileName = $path . "/src/BraspagApiIncludes.php";
+include $fileName;
 
 $sale = new BraspagSale();
 $sale->merchantOrderId = '2014112703';
